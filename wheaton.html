@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML 5 Boilerplate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+  </head>
+  <body>
+    <header>
+        <img src="/assests/h4-logo.png" class="logo"/>
+        <h1 class="title">Wheaton Notes</h1>
+    </header>
+    <div class="home">
+        <a href="/index.html">Home</a>
+    </div>
+    <form id="form">
+        <div class="input-container">
+
+            <select id="select-menu">
+                <option value="workout-notes">Workout notes</option>
+                <option value="client-notes">Client updates</option>
+                <option value="gym-events">Gym Events</option>
+            </select>
+
+            <textarea placeholder="write new note" id="text-input"></textarea>
+
+            <button id="btn">Create New Note</button>
+            <!-- <div class="input-container-bottom">
+                <select id="select-menu">
+                    <option value="workout-notes">Workout notes</option>
+                    <option value="client-notes">Client updates</option>
+                    <option value="gym-events">Gym Events</option>
+                </select>
+                <button id="btn">Create New Note</button>
+            </div> -->
+        </div>
+        <div id="notes-section"></div>
+    </form>
+    <!-- <main>
+        <div class="folders-container">
+            <div class="folder-div">
+                <a><img src="/assests/folder-icon.png" class="folder-icon"/></a>
+                <p>Workout Notes</p>
+            </div>
+            <div class="folder-div">
+                <a><img src="/assests/folder-icon.png" class="folder-icon"/></a>
+                <p>Client Updates</p>
+            </div>
+            <div class="folder-div">
+                <a><img src="/assests/folder-icon.png" class="folder-icon"/></a>
+                <p>Gym Events</p>
+            </div>
+        </div>
+    </main> -->
+	<script src="wheaton.js" type="module"></script>
+  </body>
+</html>

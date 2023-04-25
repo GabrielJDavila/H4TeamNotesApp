@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 1.5rem;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.logo {
+    width: 80px;
+    margin-bottom: 0;
+}
+
+.title {
+    margin-top: 0;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.portal-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.portals {
+    text-decoration: none;
+    padding: 15px;
+    margin: auto;
+    background: rgb(22, 121, 214);
+    width: 10rem;
+    color: white;
+    border-radius: 6px;
+    box-shadow: 0px 0px 5px rgb(22, 121, 214);
+}
+
+#wheaton-link {
+    margin-bottom: 2rem;
+}
+
+.portals:hover {
+    transform: scale(1.1);
+    transition: .3s ease;
+    background: rgb(0, 183, 255);
+}
+
+/*  */
+
+.home {
+    margin-bottom: 3rem;
+    text-decoration: none;
+}
+
+.home > a {
+    text-decoration: none;
+    background: rgb(22, 121, 214);
+    color: white;
+    padding: 1.5rem;
+    border-radius: 6px;
+}
+
+.folders-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.folder-div {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+}
+
+.folder-icon {
+    width: 7rem;
+}
+
+/*  */
+
+main {
+    margin-bottom: 2rem;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.input-container-bottom {
+    width: 100%;
+    margin: .5rem auto;
+}
+
+textarea {
+    resize: none;
+    width: 80%;
+    height: 200px;
+    margin: auto;
+    border-radius: 6px;
+    border: 1px solid lightgrey;
+    font-size: 1.25rem;
+}
+
+select {
+    width: 18rem;
+    border: 1px solid lightblue;
+    padding: .5rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    text-align: center;
+    margin: 0 auto 1rem auto;
+}
+
+#btn {
+    width: 30%;
+    border: none;
+    padding: .7rem;
+    font-size: 1rem;
+    border-radius: 6px;
+    background: rgb(22, 121, 214);
+    color: white;
+}
+
+#notes-section {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: center;
+}
+
+.rendered-text-div {
+    background-color: aliceblue;
+    width: 300px;
+    padding: .5rem;
+}
+
+.rendered-text {
+    font-size: 20px;
+}
